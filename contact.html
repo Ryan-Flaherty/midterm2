@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body class="container">
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to footer content</a></li>
+      </ul>
+    <header role="banner">
+        <img src="images/logo.PNG" alt="logo" class="logo">
+        <nav class="nav" id="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a>Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" role="main">
+        <article role="article">
+            <div class="contact-us">
+                <h2 role="heading">Contact Us</h2><!--uses h2 insted of h1 to save for title if needed-->
+                <h3 role="heading">Business Email:</h3>
+                    <p class="ap">XXXXXXXXXX@XXXXXX.ca</p>
+                <h3 role="heading">Business Phone Number:</h3>
+                    <p class="ap">0-000-000-0000</p>
+                <h3 role="heading">Our Location:</h3>
+                    <p class="ap">## Lorem St. Ottawa, Ontario</p>
+                <h3 role="heading">Business Hours:</h3>
+                    <p class="ap">Monday - Friday: 8am - 6pm,
+                    Saturday - Sunday: 8am - 4pm
+                    </p>
+            </div>
+            <div class="warehouse">
+                <picture>
+                        <source srcset="images/ware-house.jpg" media="(min-width: 1100px)">
+                        <source srcset="images/ware-house-moble.jpg" media="(max-width: 1100px)">
+                    <img src="images/ware-house.jpg" alt="warehouse" class="aimg"><!--aimg stands for article image-->
+                </picture>
+                <p class="ap"><!--ap stands for article paragraph-->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis dui tortor, quis vehicula eros scelerisque dictum. Pellentesque sed sagittis leo, quis vestibulum leo. Pellentesque imperdiet erat eu nisl tempus, at tempor metus vulputate. Phasellus volutpat nisi mauris, nec imperdiet ex convallis a. In eget lorem urna. Etiam felis erat, posuere et lacinia eu, vehicula eget metus. Phasellus lectus leo, vulputate dignissim cursus sed, eleifend et ipsum. Maecenas vel pulvinar lacus, id mattis nisl. Suspendisse tincidunt purus vitae accumsan volutpat.
+                </p>
+            </div>
+        </article>
+    </main>
+    <footer id="footer" role="contentinfo" class="foot">
+        <nav>
+            <ul>
+                <li class="foot-nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="foot-nav">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="foot-nav">
+                    <a>Contact</a>
+                </li>
+                <li class="copyright">
+                    <p>Vince's Property Renovations &#169;</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

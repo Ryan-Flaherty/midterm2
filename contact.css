@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+My styles
+*/
+@media only screen and (max-width: 1100px) {
+	.nav {
+		display: inline-block;
+	}
+	.nav ul {
+		list-style-type: none;
+	}
+	.nav a {
+		display: inline-block;
+		padding: 28px;
+		font-weight: bold;
+		height: 30px;
+		width: 296px;
+		color: black;
+		text-align: center;
+		text-decoration: none;
+		font-size: 22px;
+		border: 2px black solid;
+	}
+	.nav li{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.foot{
+		border: 1px solid black;
+		margin-top: 20px ;
+		padding: 10px;
+		text-align: left;
+	}
+	.foot .copyright{
+		background-color: white;
+		text-align: right;
+		border: none;
+		margin-left: 150px;
+	}
+	.foot li{
+		display: inline-block;
+		background-color: #ACCEF7;
+		text-align: left;
+		border: 1px black solid;
+	}
+	.foot p{
+		text-align: right;
+	}
+	.foot a{
+		text-align: left;
+		text-decoration: none;
+		font-size: 32px;
+		color: black;
+	}
+	.foot-nav{
+		margin: 10px 20px;
+		padding: 10px;
+	}
+	.container{
+		margin: 0 auto;
+		text-align: center;
+	}
+	h2{
+		font-size: 62px;
+		font-weight: bold;
+		margin: 40px 0px;
+	}
+	p{
+		font-size: 22px;
+		margin: 20px;
+	}
+	.aimg/* article images*/{
+		margin-top: 30px;
+		width: 924px;
+	}
+	footer{
+		margin: 0px 50px;
+	}
+	.ap/* article p tags*/{
+		margin: 10px 60px;
+	}
+	.logo{
+		border: 2px black solid;
+	}
+	header{
+		margin-bottom: 0px;
+	}
+	h3{
+		font-size: 52px;
+		font-weight: bold;
+		margin: 60px 0px 20px 0px;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.nav {
+		display: inline-block;
+		background-color: white;
+	}
+	.nav ul {
+		list-style-type: none;
+		background-color: rgb(35, 31, 32);
+	}
+	.nav a {
+		display: inline-block;
+		padding: 28px;
+		font-weight: bold;
+		height: 30px;
+		width: 296px;
+		color: black;
+		text-align: center;
+		text-decoration: none;
+		font-size: 22px;
+		border: 2px black solid;
+	}
+	.nav li{
+		display: inline-block;
+		margin-bottom: 10px;
+		background-color: white;
+	}
+	.foot{
+		border: 1px solid black;
+		margin-top: 20px ;
+		padding: 10px;
+		text-align: left;
+	}
+	.foot .copyright{
+		background-color: white;
+		text-align: right;
+		border: none;
+		margin-left: 40%;
+	}
+	.foot li{
+		display: inline-block;
+		background-color: #ACCEF7;
+		text-align: left;
+		border: 1px black solid;
+	}
+	.foot p{
+		text-align: right;
+	}
+	.foot a{
+		text-align: left;
+		text-decoration: none;
+		font-size: 32px;
+		color: black;
+	}
+	.foot-nav{
+		margin: 10px 20px;
+		padding: 10px;
+	}
+	.container{
+		margin: 0 auto;
+		text-align: center;
+	}
+	h2{
+		font-size: 62px;
+		font-weight: bold;
+		margin: 40px 0px;
+	}
+	p{
+		font-size: 22px;
+		margin: 20px;
+	}
+	.aimg/* article images*/{
+		margin-top: 30px;
+		width: 924px;
+	}
+	.ap/* article p tags*/{
+		margin: 10px 25%;
+	}
+	.logo{
+		border: 2px black solid;
+	}
+	header{
+		margin-bottom: 0px;
+		background-color: rgb(35, 31, 32);
+	}
+	h3{
+		font-size: 52px;
+		font-weight: bold;
+		margin: 60px 0px 20px 0px;
+	}
+	footer{
+		margin: 0px 10%;
+	}
+  }
+  .skip-links{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  .skip-links a{
+	position: absolute;
+	top: -3em;
+	background-color: black;
+	color:white;
+	padding: .5em 1em;
+	font-weight: bold;
+  }
+  a:hover{
+	background-color: rgb(35, 31, 32);
+	color: white;
+	transform: scale(1.05);
+	transition: 0.3s;
+	transition-timing-function: ease-out;
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+  }
+  .copyright{
+	animation: copyright-wiggle linear 2s;
+	animation-iteration-count: 5;
+  }
+  @keyframes copyright-wiggle{
+	0%, 10%{
+		transform: rotate(0);
+	}
+	15%{
+		transform: rotate(-15deg);
+	}
+	20%{
+		transform: rotate(10deg);
+	}
+	25%{
+		transform: rotate(-10deg);
+	}
+	30%{
+		transform: rotate(6deg);
+	}
+	35%{
+		transform: rotate(-4deg);
+	}
+	40%, 100%{
+		transform: rotate(0);
+	}
+  }

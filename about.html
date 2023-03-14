@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="about.css" rel="stylesheet">
+</head>
+<body class="container">
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to footer content</a></li>
+      </ul>
+    <header role="banner">
+        <img src="images/logo.PNG" alt="logo" class="logo">
+        <nav class="nav" id="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a>About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" role="main">
+        <div class="business">
+            <picture>
+                    <source srcset="images/work.PNG" media="(min-width: 1100px)">
+                    <source srcset="images/work-moble.PNG" media="(max-width: 1100px)">
+                <img src="images/work.PNG" alt="work" class="bimg"><!--bimg stands for business image-->
+            </picture>
+            <p class="bp"><!--bp stands for business paragraph-->
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis dui tortor, quis vehicula eros scelerisque dictum. Pellentesque sed sagittis leo, quis vestibulum leo. Pellentesque imperdiet erat eu nisl tempus, at tempor metus vulputate. Phasellus volutpat nisi mauris, nec imperdiet ex convallis a. In eget lorem urna. Etiam felis erat, posuere et lacinia eu, vehicula eget metus. Phasellus lectus leo, vulputate dignissim cursus sed, eleifend et ipsum. Maecenas vel pulvinar lacus, id mattis nisl. Suspendisse tincidunt purus vitae accumsan volutpat.
+            </p>
+       </div>
+        <article class="grid-contatiner" role="article">
+            <div class="grid-item">
+                <h2 role="heading">CEO</h2><!--uses h2 insted of h1 to save for title if needed-->
+                <picture>
+                        <source srcset="images/ceo.PNG" media="(min-width: 1100px)">
+                        <source srcset="images/ceo-moble.PNG" media="(max-width: 1100px)">
+                    <img src="images/ceo.PNG" alt="ceo" class="aimg"><!--aimg stands for article image-->
+                </picture>
+                <p class="ap"><!--ap stands for article paragraph-->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis dui tortor, quis vehicula eros scelerisque dictum. Pellentesque sed sagittis leo, quis vestibulum leo. Pellentesque imperdiet erat eu nisl tempus, at tempor metus vulputate. Phasellus volutpat nisi mauris, nec imperdiet ex convallis a. In eget lorem urna. Etiam felis erat, posuere et lacinia eu, vehicula eget metus. Phasellus lectus leo, vulputate dignissim cursus sed, eleifend et ipsum. Maecenas vel pulvinar lacus, id mattis nisl. Suspendisse tincidunt purus vitae accumsan volutpat.
+                </p>
+            </div>
+
+        <div class="grid-item">
+            <h2 role="heading">Co-Founder</h2><!--uses h2 insted of h1 to save for title if needed-->
+            <picture>
+                    <source srcset="images/co-founder1.PNG" media="(min-width: 1100px)">
+                    <source srcset="images/co-founder1-moble.PNG" media="(max-width: 1100px)">
+                <img src="images/co-founder1.PNG" alt="co-founder1" class="aimg"><!--aimg stands for article image-->
+            </picture>
+            <p class="ap"><!--ap stands for article paragraph-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis dui tortor, quis vehicula eros scelerisque dictum. Pellentesque sed sagittis leo, quis vestibulum leo. Pellentesque imperdiet erat eu nisl tempus, at tempor metus vulputate. Phasellus volutpat nisi mauris, nec imperdiet ex convallis a. In eget lorem urna. Etiam felis erat, posuere et lacinia eu, vehicula eget metus. Phasellus lectus leo, vulputate dignissim cursus sed, eleifend et ipsum. Maecenas vel pulvinar lacus, id mattis nisl. Suspendisse tincidunt purus vitae accumsan volutpat.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <h2 role="heading">Co-Founder</h2><!--uses h2 insted of h1 to save for title if needed-->
+            <picture>
+                    <source srcset="images/co-founder2.PNG" media="(min-width: 1100px)">
+                    <source srcset="images/co-founder2-moble.PNG" media="(max-width: 1100px)">
+                <img src="images/co-founder2.PNG" alt="co-founder2" class="aimg"><!--aimg stands for article image-->
+            </picture>
+            <p class="ap"><!--ap stands for article paragraph-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis dui tortor, quis vehicula eros scelerisque dictum. Pellentesque sed sagittis leo, quis vestibulum leo. Pellentesque imperdiet erat eu nisl tempus, at tempor metus vulputate. Phasellus volutpat nisi mauris, nec imperdiet ex convallis a. In eget lorem urna. Etiam felis erat, posuere et lacinia eu, vehicula eget metus. Phasellus lectus leo, vulputate dignissim cursus sed, eleifend et ipsum. Maecenas vel pulvinar lacus, id mattis nisl. Suspendisse tincidunt purus vitae accumsan volutpat.
+            </p>
+        </div>
+        </article>
+    </main>
+    <footer id="footer" role="contentinfo" class="foot">
+        <nav>
+            <ul>
+                <li class="foot-nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="foot-nav">
+                    <a>About</a>
+                </li>
+                <li class="foot-nav">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="copyright">
+                    <p>Vince's Property Renovations &#169;</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
